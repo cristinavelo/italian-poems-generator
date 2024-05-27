@@ -52,6 +52,10 @@ form {
   border-left: 3px solid #7fb3d5;
 }
 
+.poem strong {
+  color: #7fb3d5;
+}
+
 a {
   color: #7fb3d5;
 }
