@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
@@ -18,7 +19,7 @@
         <h1>AI Italian poem generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the poem"
@@ -29,11 +30,7 @@
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="poem">
-          M'illumino
-          <br />
-          d'immenso
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This project was coded by
