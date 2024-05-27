@@ -4,44 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poems Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Italian poem generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        M'illumino
-        <br />
-        d'immenso
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/cristinavelo" target="_blank"
-        >Cristina Velo</a
-      >
-      and is
-      <a
-        href="https://github.com/cristinavelo/italian-poems-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >, hosted on
-      <a href="https://italian-poems-generator-cv.netlify.app" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Italian poem generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit" />
+        </form>
+        <div class="poem">
+          M'illumino
+          <br />
+          d'immenso
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/cristinavelo" target="_blank"
+          >Cristina Velo</a
+        >
+        and is
+        <a
+          href="https://github.com/cristinavelo/italian-poems-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >, hosted on
+        <a href="https://italian-poems-generator-cv.netlify.app" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
