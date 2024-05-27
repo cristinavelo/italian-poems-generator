@@ -17,12 +17,20 @@ h1 {
   font-size: 40sspx;
 }
 
-form {
-  padding: 30px;
-  display: flex;
+.form-container {
+  padding: 20px;
   margin-bottom: 30px;
 }
 
+form {
+  display: flex;
+}
+
+.example {
+  text-align: left;
+  font-size: 12px;
+  opacity: 0.6;
+}
 .prompt {
   padding: 20px;
   border-color: #d6dbdf;

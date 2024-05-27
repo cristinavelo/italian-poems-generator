@@ -20,18 +20,21 @@
         <h1>AI Italian poem generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit" />
-        </form>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of an Italian poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <div class="example">i.e: Flower, Paris, Cheese</div>
+        </div>
         <div class="poem" id="poem"></div>
       </main>
       <footer>
