@@ -60,6 +60,10 @@ form {
   border-left: 3px solid #7fb3d5;
 }
 
+.hidden {
+  display: none;
+}
+
 .poem strong {
   color: #7fb3d5;
 }
@@ -72,4 +76,20 @@ footer {
   font-size: 10px;
   margin-top: 20px;
   padding: 30px;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
